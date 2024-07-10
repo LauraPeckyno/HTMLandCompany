@@ -1,0 +1,128 @@
+.companyContainer {
+  border: solid red;
+  border-width: 0.2px;
+  text-align: center;
+  display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.company {
+  border-radius: 22px;
+  font-size:22px;
+  border: solid grey;
+  margin: 20px;
+  /* width: 100%; */
+  padding: 12px;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+#com_a:hover {
+  color: white;
+  background-color: lightblue;
+}
+#com_b:hover {
+  color: peru;
+  background-color: navy;
+}
+#com_c:hover {
+  background-color: green;
+}
+#com_d:hover {
+  color: white;
+  background-color: purple;
+}
+.bizPic {
+  margin: 1em;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  border: solid white;
+}
+
+hr.divider {
+border: 5px solid rgb(223, 224, 226);
+border-radius: 10px;
+}
+
+.perscholNav {
+  /* border: solid red;
+border-width: 0.2px; */
+  text-align: center;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+}
+.perscholSite {
+  border-radius: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:18px;
+  font-weight:bold;
+  color: slategray;
+  border: dotted rgb(110, 48, 48);
+  margin: 10px;
+  padding: 12px;
+  justify-content: space-evenly;
+  background-color: white;
+  display: flex;
+}
+.Header {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  background-image: url("https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png");
+  background-size: 100%;
+  background-color: #cccccc;
+  border-radius: 20px;
+  padding: 10%;
+}
+.logo {
+  margin: 5px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border: double rgb(141, 141, 141);
+}
+
+.logo:hover {
+  margin: 5px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border: solid rgb(255, 255, 255);
+}
+
+
+#laura a:link { 
+  text-decoration: none; 
+} 
+#laura a:visited { 
+  text-decoration: none; 
+} 
+#laura a:hover { 
+  text-decoration: none;
+  color:whitesmoke;
+} 
+#laura a:active { 
+  text-decoration: none; 
+}
+
+#resourcebutton:hover {
+  color: whitesmoke;
+  background-color: rgb(25, 213, 226);
+}
+.Purpose {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size:16px;
+  color: rgb(0, 0, 0);
+}
+.more {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size:14px;
+  color: rgb(0, 0, 0);
+}
